@@ -1,0 +1,52 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# STS (Spring Tool Suite)
+.metadata
+.recommenders/
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Other common ignored files
+src/main/resources/application*.properties
+src/main/resources/application*.yml
+!src/main/resources/application.properties # If you want to commit a base application.properties
+!src/main/resources/application.yml # If you want to commit a base application.yml

@@ -35,6 +35,7 @@ public class User {
     private String lastName;
     private LocalDate dateOfBirth;
     private boolean isActive;
+    private String password;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     Set<Contact> contacts;

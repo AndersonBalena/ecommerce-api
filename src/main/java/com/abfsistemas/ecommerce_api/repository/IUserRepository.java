@@ -9,7 +9,7 @@ import com.abfsistemas.ecommerce_api.model.User;
 
 @Repository
 public interface IUserRepository extends JpaRepository<User, UUID> {
-    
-    
 
+    User findByUsername(String username);
+    
 }

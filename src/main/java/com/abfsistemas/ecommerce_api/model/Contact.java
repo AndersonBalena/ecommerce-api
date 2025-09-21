@@ -30,7 +30,7 @@ public class Contact {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
-    private UUID userId;
+    private User user;
 
     private String email;
     private String phoneNumber;

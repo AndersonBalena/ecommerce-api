@@ -31,7 +31,7 @@ public class UserController {
 
         body.setPassword(encodedPassword);
 
-        User userCreated = userRepository.save(user);
+        User userCreated = userRepository.save(body);
         return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
     }
 
